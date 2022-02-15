@@ -1,5 +1,5 @@
 <template>  
-    <header class="header">
+    <header class="header">      
       <div class="header__info">
         <img class="header__img" src="../assets/images/virus-one.svg" alt="img">
         <h4 class="header__subtitle">COVID-19 Alert</h4>
@@ -15,18 +15,15 @@
 
 <script>
 export default {
-  name: 'Header'  
+  name: 'Header'
 }
 </script>
 
 <style scoped>
 
-.header {
-  margin-top: 150px;
-  padding-left: 243px;
-  /* margin-bottom: 102px; */
-  padding: 147px 0 0 243px;
-
+.header {  
+  padding-left: 243px;  
+  padding: 3.5rem 0 0 243px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -38,6 +35,7 @@ export default {
   padding-bottom: 105px; 
   position: relative;
 }
+
 .header__info img {
   width: 189px;
   height: 193px;
@@ -45,6 +43,7 @@ export default {
   top: 48px;
   right: -70px;
 }
+
 .header__subtitle {
   font-family: 'Red Hat Display';
   font-weight: 700;
@@ -66,9 +65,5 @@ export default {
   margin-bottom: 54px;
   font-size: 1.5rem;
   line-height: 1.5;
-}
-
-.header__img {
-
 }
 </style>
