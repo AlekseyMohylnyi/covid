@@ -2,9 +2,9 @@
     <header class="header">      
       <div class="header__info">
         <img class="header__img" src="../assets/images/virus-one.svg" alt="img">
-        <h4 class="header__subtitle">COVID-19 Alert</h4>
+        <h4 class="header__subtitle">COVID-22 Alert</h4>
         <h1 class="header__title">Stay at Home quarantine <br/> To stop Corona virus</h1>
-        <p class="header__text">There is no specific medicine to prevent or treat coronavirus  disease (COVID-19). People may need supportive care to.</p>
+        <p class="header__text">There is no specific medicine to prevent or treat coronavirus  disease (COVID-22). People may need supportive care to.</p>
         <a class="btn header__btn" href="#">Let Us Help</a>
       </div>
       <div class="header__img">
