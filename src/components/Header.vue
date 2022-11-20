@@ -56,6 +56,7 @@ export default {
   font-family: 'Red Hat Display';
   margin-bottom: 30px;
   color: var(--black);
+  color: blue;
   font-weight: 700;
   font-size: 3.25rem;
   line-height: 1.25;
